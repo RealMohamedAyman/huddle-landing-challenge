@@ -1,0 +1,441 @@
+@media (max-width: 369.98px) and (min-width: 0px) {
+    .header .sides {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .header {
+        height: 800px;
+        padding: 50px 10px;
+    }
+
+    .side-2 img {
+        height: 170px;
+    }
+
+    .side-2 {
+        margin-left: 0;
+    }
+
+    .side h2 {
+        margin-left: 0px;
+        width: 250px;
+    }
+
+    .side p {
+        width: 250px;
+    }
+
+    .header .logo img {
+        height: 20px;
+    }
+
+    .header .btn a {
+        padding: 10px 10px;
+    }
+
+    .side .button a {
+        padding: 15px 30px;
+    }
+
+    .sections .main {
+        flex-direction: column-reverse;
+        text-align: center;
+        position:    relative;
+        left:        50%;
+        top:         50%;
+        margin-left: -115px;
+        width: 230px;
+    }
+
+    .sections .main .img img {
+        height: 150px;
+    }
+
+    .sections .main p {
+        margin-left: calc(106.25px - 50px);
+        width: 200px;
+    }
+
+    .sections .main h2 {
+        margin-left: 50px;
+    }
+
+    .sections .text {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sections .flow .text {
+        margin-left: -50px;
+    }
+
+    .end {
+        width: 230px;
+        margin-left: -115px;
+    }
+
+    .end .button a {
+        padding: 10px 10px;
+    }
+
+
+    footer {
+        text-align: left;
+        flex-direction: column;
+        padding: 200px 10px 100px;
+    }
+
+    .grid-1 .location p {
+        width: 210px;
+        display: inline-block;
+    }
+
+    .grid-1 .location img {
+        position: relative;
+        top: -85px;
+    }
+
+    .grid-1 .logo img {
+        height: 35px;
+    }
+
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid-3 {
+        margin-top: -5px;
+    }
+
+    .grid-4 {
+        text-align: center;
+    }
+
+    .grid-4 .icons + p {
+        margin-top: 10px;
+    }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) and (min-width: 370px) {
+    .header .sides {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .header {
+        height: 750px;
+        padding: 50px 30px;
+    }
+
+    .side-2 img {
+        height: 210px;
+    }
+
+    .side-2 {
+        margin-left: 0;
+    }
+
+    .side h2 {
+        margin-left: 0px;
+    }
+
+    .side p {
+        width: 350px;
+    }
+
+    .header .logo img {
+        height: 25px;
+    }
+
+    .header .btn a {
+        padding: 15px 15px;
+    }
+
+    .sections .main {
+        flex-direction: column-reverse;
+        text-align: center;
+        position:    relative;
+        left:        50%;
+        top:         50%;
+        margin-left: -170px;
+        width: 340px;
+    }
+
+    .sections .main .img img {
+        height: 200px;
+    }
+
+    .sections .main p {
+        margin-left: calc(106.25px - 50px);
+        width: 300px;
+    }
+
+    .sections .main h2 {
+        margin-left: 50px;
+    }
+
+    .sections .text {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sections .flow .text {
+        margin-left: -50px;
+    }
+
+    .end {
+        width: 320px;
+        margin-left: -160px;
+    }
+
+    footer {
+        text-align: left;
+        flex-direction: column;
+        padding: 200px 10px 100px;
+    }
+
+    .grid-1 .location p {
+        width: 300px;
+        display: inline-block;
+    }
+
+    .grid-1 .location img {
+        position: relative;
+        top: -45px;
+    }
+
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid-3 {
+        margin-top: -5px;
+    }
+
+    .grid-4 {
+        text-align: center;
+    }
+
+    .grid-4 .icons + p {
+        margin-top: 10px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 576px) {
+    .header .sides {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .header {
+        height: 900px;
+    }
+
+    .side-2 img {
+        height: 350px;
+    }
+
+    .side h2 {
+        margin-left: 60px;
+    }
+
+    .sections .main {
+        flex-direction: column-reverse;
+        text-align: center;
+        position:    relative;
+        left:        50%;
+        top:         50%;
+        margin-left: -250px;
+        width: 500px;
+    }
+
+    .sections .main p {
+        margin-left: calc(106.25px - 50px);
+    }
+
+    .sections .main h2 {
+        margin-left: 50px;
+    }
+
+    .sections .text {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sections .flow .text {
+        margin-left: -50px;
+    }
+
+    .end {
+        width: 500px;
+        margin-left: -250px;
+    }
+
+    footer {
+        text-align: left;
+        flex-direction: column;
+        padding: 200px 50px 100px;
+    }
+
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid-3 {
+        margin-top: -5px;
+    }
+
+    .grid-4 {
+        text-align: center;
+    }
+
+    .grid-4 .icons + p {
+        margin-top: 10px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 768px) {
+    .header .sides {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .header .logo {
+        display: block;
+    }
+
+    .header {
+        height: 900px;
+    }
+
+    .side-2 img {
+        height: 400px;
+    }
+
+    .side h2 {
+        margin-left: 60px;
+    }
+
+    .sections .main {
+        flex-direction: column-reverse;
+        text-align: center;
+        position:    relative;
+        left:        50%;
+        top:         50%;
+        margin-left: -300px;
+        width: 600px;
+    }
+
+    .sections .main p {
+        margin-left: calc(106.25px - 50px);
+    }
+
+    .sections .main h2 {
+        margin-left: 50px;
+    }
+
+    .sections .text {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .sections .flow .text {
+        margin-left: -50px;
+    }
+
+    footer {
+        text-align: left;
+        flex-direction: column;
+        padding: 200px 100px 100px;
+    }
+
+    footer ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    .grid-3 {
+        margin-top: -5px;
+    }
+
+    .grid-4 {
+        text-align: center;
+    }
+
+    .grid-4 .icons + p {
+        margin-top: 10px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) and (min-width: 992px) {
+    .header {
+        height: 500px;
+    }
+
+    .side-2 img {
+        height: 300px;
+    }
+
+    .sections .main {
+        position:    relative;
+        left:        50%;
+        top:         50%;
+        margin-left: -400px;
+        width: 800px;
+    }
+
+    .sections .main .img img {
+        height: 200px;
+    }
+
+    footer {
+        flex-wrap: wrap;
+    }
+
+    .grid-4 .icons + p {
+        margin-top: 0;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) and (min-width:1200px) {
+    .header {
+        height: 600px;
+    }
+
+    .side-2 img {
+        height: 350px;
+    }
+
+    footer {
+        word-wrap: normal;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .grid-1,
+    .grid-2,
+    .grid-3 {
+        margin-right: 50px;
+    }
+
+
+    .grid-4 .icons + p {
+        margin-top: 0;
+    }
+}

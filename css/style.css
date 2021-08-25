@@ -1,0 +1,347 @@
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --VeryPaleCyan: hsl(193, 100%, 96%);
+    --VeryDarkCyan: hsl(192, 100%, 9%);
+    --GrayishBlue: hsl(208, 11%, 55%);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.btn,
+.button,
+a {
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+    background-color: var(--VeryDarkCyan);
+    color: white;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.attribution a {
+    color: var(--Pink);
+    text-decoration: none;
+}
+
+.header {
+    background-image: url(../images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: calc(100%);
+    height: 750px;
+    padding: 50px 60px;
+    background-color: var(--VeryPaleCyan);
+}
+
+.header .logo img {
+    height: 35px;
+}
+
+.header .lead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    display: inline-block;
+}
+
+.header .btn {
+    display: inline-block;
+}
+
+.header .btn a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: 0px 0px 7px 1px rgb(223, 223, 223);
+}
+
+.header .btn a:hover {
+    color: var(--GrayishBlue);
+}
+
+.side,
+.side-2 {
+    display: inline-block;
+}
+
+.side-2 img {
+    height: 500px;
+}
+
+.side-2 {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.side p {
+    width: 465px;
+    font-family: 'Open Sans';
+    line-height: 1.5;
+}
+
+.side h2 {
+    width: 350px;
+    font-family: 'Poppins';
+    font-size: 30px;
+}
+
+.side .button a {
+    background-color: var(--Pink);
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: 0px 0px 7px 1px rgb(223, 223, 223);
+}
+
+.side .button a:hover {
+    background-color: hsl(322, 79%, 78%);
+}
+
+.side .button {
+    margin-top: 40px;
+}
+
+.sides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections {
+    margin-top: 250px;
+}
+
+.sections .main {
+    position:    relative;
+    left:        50%;
+    top:         50%;
+    margin-left: -500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    width: 1000px;
+    padding: 30px;
+    box-shadow: 0px 0px 7px 1px rgb(223, 223, 223);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.sections .main .img img {
+    height: 300px;
+}
+
+.sections .flow {
+    flex-direction: row-reverse;
+}
+
+.sections .main p {
+    width: 425px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    color: var(--GrayishBlue);
+    line-height: 1.5;
+}
+
+.sections .main h2 {
+    font-family: Poppins;
+    color: var(--VeryDarkCyan);
+}
+
+.sections .grow .text,
+.sections .users .text {
+    margin-right: 50px;
+}
+
+.sections .flow .text {
+    margin-left: 50px;
+}
+
+.end {
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 1px rgb(223, 223, 223);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 600px;
+    position:    relative;
+    left:        50%;
+    top:         50%;
+    margin-left: -300px;
+    margin-top: 100px;
+    z-index: 1;
+    background-color: white;
+}
+
+.end h2 {
+    font-family: Poppins;
+}
+
+.end .button a {
+    background-color: var(--Pink);
+    color: white;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: 0px 0px 7px 1px rgb(223, 223, 223);
+}
+
+.end .button a:hover {
+    background-color: hsl(322, 79%, 78%);
+}
+
+.end .button {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: var(--VeryDarkCyan);
+    color: #eee;
+    padding: 200px 150px 100px;
+    margin-top: -90px;
+    display: flex;
+    font-family: 'Open Sans';
+    justify-content: space-between;
+}
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4 {
+    display: inline-block;
+}
+
+.grid-1 .location p {
+    width: 350px;
+    display: inline-block;
+}
+
+.grid-1 .logo img {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
+
+.grid-1 .logo {
+    margin-bottom: 50px;
+}
+
+.grid-2 ul,
+.grid-3 ul {
+    list-style-type: none;
+}
+
+.grid-2 a,
+.grid-3 a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.grid-2 a:hover,
+.grid-3 a:hover {
+    text-decoration: underline;
+}
+
+.grid-2 li,
+.grid-3 li {
+    margin-bottom: 25px;
+}
+
+.grid-2,
+.grid-3,
+.grid-4 {
+    margin-top: 90px;
+}
+
+.grid-4 .icons i {
+    font-size: 16px;
+    border: 2px solid #eee;
+    padding: 7px 10px;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+
+.grid-4 .icons:not(:last-child) i {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.grid-4 .icons i:hover {
+    border-color: var(--Pink);
+    color: var(--Pink);
+}
+
+.grid-4 .icons i:first-child {
+    padding: 7px 12px;
+}
+
+
+.grid-4 .icons + p {
+    font-size: 12px;
+    margin-top: 150px;
+}
+
+.grid-1 .location img {
+    position: relative;
+    top: -30px;
+}
+
+.grid-1 .phone {
+    margin-bottom: 20px;
+}
+
+.grid-1 .location img,
+.grid-1 .phone img,
+.grid-1 .email img {
+    margin-right: 10px;
+}
